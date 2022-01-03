@@ -1,0 +1,19 @@
+// ### Headings
+
+// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+// - Weights: 600
+
+// ### Body, Call-to-actions
+
+// - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+// - Weights: 400, 700
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+$font-weights: (
+  "regular": 400,
+  "semi-bold": 600,
+  "bold": 700,
+);
+
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Poppins", sans-serif;
