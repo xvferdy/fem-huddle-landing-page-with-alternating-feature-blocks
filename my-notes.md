@@ -13,6 +13,7 @@
 - [ ] check layout shift (while adjust sreen size and after page refresh)
 - [ ] implement `clamp()`
 - [ ] footer icon 
+- [ ] hero info basis
 
 ## Timeline
 - 1 jan / 2 jan, fs branch
@@ -20,7 +21,7 @@
 
 - 2 jan, fs/skelly branch
   - html content 6.16 - 7.16
-  - 
+  - layout, header and little card 7.39 - 8.44 
 
 
 ## What I learn

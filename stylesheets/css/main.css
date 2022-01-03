@@ -10,7 +10,6 @@
 
 body {
   box-sizing: border-box;
-  background-color: pink;
 }
 
 html {
@@ -20,5 +19,116 @@ html {
 p {
   font-size: 1.8rem;
 }
+
+/* SASS DIRECTORY
+	1. =.hero
+	2. =.feature
+	3. =.footer
+*/
+/* ====== */
+/* HERO */
+/* ====== */
+.hero-container {
+  background-color: #ebfbff;
+  background-image: url("../../images/bg-hero-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-container .hero {
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 5.5rem 0;
+}
+.hero-container .hero__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-container .hero__header-logo {
+  width: 19rem;
+}
+.hero-container .hero__header-btn {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.5rem 6rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.hero-container .hero__info {
+  padding-top: 7rem;
+  display: flex;
+  gap: 7rem;
+}
+.hero-container .hero__info-text {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero-container .hero__info-text h1 {
+  font-size: 4rem;
+  margin-bottom: 4.5rem;
+  color: #00252e;
+}
+.hero-container .hero__info-text p {
+  margin-bottom: 3.5rem;
+}
+.hero-container .hero__info-text button {
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ff52bf;
+  color: #fff;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.5rem 6rem;
+}
+.hero-container .hero__info-img {
+  flex-basis: 50%;
+  display: grid;
+  place-items: center;
+}
+.hero-container .hero__info-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ====== */
+/* FEATURE */
+/* ====== */
+.feature-container {
+  background-color: #fff;
+}
+.feature-container .feature-card {
+  margin: 16rem 0;
+}
+.feature-container .feature-card .card {
+  max-width: 111rem;
+  margin: 4rem auto;
+  display: flex;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.feature-container .feature-card .card__text h2 {
+  font-size: 3rem;
+  color: #00252e;
+}
+.feature-container .feature-card .card__text p {
+  color: #808d99;
+}
+.feature-container .feature-card .card__img img {
+  width: 100%;
+}
+.feature-container .feature__cta {
+  border: 1px solid #000;
+}
+
+/* ====== */
+/* FOOTER */
+/* ====== */
 
 /*# sourceMappingURL=main.css.map */
