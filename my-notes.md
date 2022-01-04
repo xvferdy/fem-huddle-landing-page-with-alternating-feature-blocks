@@ -29,7 +29,8 @@
 
 - 3 jan, layout card
   - layout: card, update: hero 2.38 - 5.15
-  - desktop layout 7.8 - 
+  - desktop layout 7.08 - 7.50
+  - tablet & mobile layout 7.50 - 
 
 
 ## What I learn
