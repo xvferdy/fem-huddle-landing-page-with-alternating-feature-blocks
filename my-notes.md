@@ -8,6 +8,7 @@
 - [ ] typo html content
 - [ ] check chrome
 - [ ] hero p line height
+- [ ] footer logo margin
 
 **hard**
 - [ ] layout
@@ -27,7 +28,8 @@
   
 
 - 3 jan, layout card
-  - layout: card, update: hero 2.38 
+  - layout: card, update: hero 2.38 - 5.15
+  - desktop layout 7.8 - 
 
 
 ## What I learn
