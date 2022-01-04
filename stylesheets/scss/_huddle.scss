@@ -6,10 +6,15 @@
 	3. =.footer
 */
 
+%content-padding {
+  padding: 0 2.4rem;
+}
+
 /* ====== */
 /* HERO */
 /* ====== */
 .hero-container {
+  @extend %content-padding;
   background-color: $very-pale-cyan;
   background-image: url("../../images/bg-hero-desktop.svg");
   background-size: cover;
@@ -19,6 +24,7 @@
     max-width: 111rem;
     margin: 0 auto;
     padding: 5.5rem 0;
+
     &__header {
       display: flex;
       justify-content: space-between;
@@ -85,37 +91,155 @@
 /* FEATURE */
 /* ====== */
 .feature-container {
+  @extend %content-padding;
   background-color: #fff;
+
   .feature-card {
     margin: 16rem 0;
     .card {
       max-width: 111rem;
       margin: 4rem auto;
+
+      padding: 5rem 3.5rem 5.5rem 11rem;
+
       display: flex;
+      gap: 8rem;
+      align-items: center;
       box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
         rgba(17, 17, 26, 0.05) 0px 8px 32px;
 
       &__text {
+        flex-basis: 55%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
         h2 {
           font-size: 3rem;
           color: $very-dark-cyan;
         }
         p {
+          line-height: 2.6rem;
           color: $grayish-blue;
         }
       }
       &__img {
+        flex-basis: 45%;
         img {
           width: 100%;
         }
       }
     }
   }
-  .feature__cta {
-    border: 1px solid #000;
+
+  .feature-cta {
+    // display: flex;
+    .ready {
+      max-width: 80rem;
+      margin: 0 auto;
+      display: grid;
+      place-items: center;
+      padding: 7.5rem 0 5rem;
+      box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+      // margin-bottom: -60px;
+      // background-color: #fff;
+      h2 {
+        font-size: 3rem;
+        color: $very-dark-cyan;
+      }
+      button {
+        cursor: pointer;
+        font-size: 1.8rem;
+        font-weight: 700;
+        background-color: $pink;
+        color: #fff;
+        border: none;
+        border-radius: 10rem;
+        padding: 2.5rem 11rem;
+      }
+    }
   }
 }
 
 /* ====== */
 /* FOOTER */
 /* ====== */
+
+.footer-container {
+  @extend %content-padding;
+  background-color: $very-dark-cyan;
+  color: #fff;
+
+  .footer {
+    max-width: 111rem;
+    margin: 0 auto;
+    padding: 18rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &__logo {
+      img {
+        filter: brightness(0) invert(1);
+        width: 19rem;
+      }
+    }
+    &__menu {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 10rem;
+      justify-content: space-between;
+      &-contact {
+        // border: 1px solid #000;
+        width: 33%;
+
+        li {
+          list-style: none;
+          font-size: 1.6rem;
+          padding-left: 1.3em;
+          margin-bottom: 2rem;
+
+          &::before {
+            content: "\f041";
+            font-family: FontAwesome;
+            display: inline-block;
+            margin-left: -1.3em; /* same as padding-left set on li */
+            width: 1.05em; /* same as padding-left set on li */
+          }
+        }
+      }
+      &-link1 {
+        // border: 1px solid #000;
+        // width: 23%;
+        list-style: none;
+        font-size: 1.8rem;
+        li {
+          margin-bottom: 2rem;
+        }
+      }
+      &-link2 {
+        // border: 1px solid #000;
+        // width: 23%;
+        list-style: none;
+        font-size: 1.8rem;
+        li {
+          margin-bottom: 2rem;
+        }
+      }
+      &-social {
+        // border: 1px solid #000;
+        // width: 23%;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        font-size: 2.5rem;
+      }
+    }
+    &__copyright {
+      text-align: right;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
