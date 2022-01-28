@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: inherit;
   font-family: "Open Sans", sans-serif;
-  border: 1px solid grey;
 }
 
 body {
@@ -132,6 +131,8 @@ a:hover {
     padding: 0.6rem 2.4rem;
   }
   .hero-container .hero__info {
+    padding: 0 1rem;
+    padding-top: 7rem;
     flex-direction: column;
     align-items: center;
   }
@@ -139,6 +140,13 @@ a:hover {
     max-width: 51rem;
     text-align: center;
     align-items: center;
+  }
+  .hero-container .hero__info-text h1 {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+  .hero-container .hero__info-text p {
+    font-size: 1.6rem;
   }
   .hero-container .hero__info-img {
     width: 80%;
@@ -217,15 +225,43 @@ a:hover {
   opacity: 0.75;
 }
 @media only screen and (max-width: 810px) {
+  .feature-container .feature-card {
+    margin: 6rem 0;
+    margin-bottom: 12rem;
+  }
   .feature-container .feature-card .card {
     flex-direction: column;
-    padding: 2rem;
+    padding: 3rem;
+    gap: 6rem;
   }
   .feature-container .feature-card .card__text {
     order: 2;
+    text-align: center;
+  }
+  .feature-container .feature-card .card__text h2 {
+    font-size: 2.5rem;
+  }
+  .feature-container .feature-card .card__text p {
+    font-size: 1.5rem;
   }
   .feature-container .feature-card .card__img {
     order: 1;
+  }
+  .feature-container .feature-cta .ready {
+    padding: 3.5rem 1.8rem;
+  }
+  .feature-container .feature-cta .ready h2 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .feature-container .feature-cta .ready button {
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 2rem 7rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .feature-container .feature-cta .ready button:hover {
+    opacity: 0.75;
   }
 }
 
@@ -299,6 +335,32 @@ a:hover {
 }
 .footer-container .footer__copyright p {
   font-size: 1.2rem;
+}
+@media only screen and (max-width: 810px) {
+  .footer-container .footer {
+    padding: 18rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+  }
+  .footer-container .footer__logo img {
+    width: 19rem;
+  }
+  .footer-container .footer__menu {
+    flex-flow: column wrap;
+    gap: 4rem;
+  }
+  .footer-container .footer__menu-contact {
+    width: 100%;
+  }
+  .footer-container .footer__menu-social {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container .footer__copyright {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

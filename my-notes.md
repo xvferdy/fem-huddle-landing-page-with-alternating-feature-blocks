@@ -31,7 +31,10 @@
   - layout: card, update: hero 2.38 - 5.15
   - desktop layout 7.08 - 7.50
   - tablet & mobile layout 7.50 - 
+  - 
 
+- 29 jan, 
+  - layout for 375px: 5.00 - 6.00
 
 ## What I learn
 - display flex will stack/sum total margin?
