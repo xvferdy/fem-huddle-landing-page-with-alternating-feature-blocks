@@ -1,18 +1,18 @@
 ## Todos
 **easy**
-- [ ] sass url img
-- [ ] web title
+- [x] sass url img
+- [x] web title
 - [ ] color naming
 - [ ] delete unused file (like this one)
 - [ ] semantic html
 - [ ] typo html content
-- [ ] check chrome
+- [x] check chrome
 - [ ] hero p line height
 - [ ] footer logo margin
 
 **hard**
 - [ ] layout
-- [ ] footer
+- [x] footer
 - [ ] check layout shift (while adjust sreen size and after page refresh)
 - [ ] implement `clamp()`
 - [ ] footer icon 
@@ -30,7 +30,7 @@
 - 3 jan, layout card
   - layout: card, update: hero 2.38 - 5.15
   - desktop layout 7.08 - 7.50
-  - tablet & mobile layout 7.50 - 
+  - tablet & mobile layout 7.50 - 9.00
   - 
 
 - 29 jan, 
@@ -42,3 +42,4 @@
 ## Not statisfied
 - footer
 - footer list
+- not implementing layout for tablet and small phone
