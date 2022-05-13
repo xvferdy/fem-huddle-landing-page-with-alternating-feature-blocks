@@ -1,4 +1,4 @@
-# Huddle landing page with alternating feature blocks solution
+# Huddle landing page with alternating feature blocks
 
 > 🔖 This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100).
 
@@ -8,7 +8,7 @@
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 ***To do this challenges, you need a basic understanding of HTML and CSS.*** Press <kbd>Enter</kbd> 🚀 to start the game!!
 
-## 🥷 Table of Contents
+## 🌍 Table of Contents
 - [Brief](#brief)
 - [The challenge](#the-challenge)
 - [Links](#links)
@@ -39,7 +39,7 @@ Users should be able to:
 [![🐬 Newbie Difficulty List](https://img.shields.io/badge/Difficulty-Newbie-3F54A3?style=for-the-badge&logo=frontendmentor "Newbie Difficulty")](https://www.frontendmentor.io/challenges?difficulties=1)
 
 ## Links
-- Solution URL: [~~Frontend Mentor Solution~~]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-html-sass-SkwcTBjUq)
 - Live Site URL: [Gituhb Pages](https://xvferdy.github.io/fem-huddle-landing-page-with-alternating-feature-blocks/)
 
 ## My process
@@ -57,7 +57,7 @@ Users should be able to:
 > ▐ <sub>Desktop layout <kbd>~1 hour</kbd></sub> <br>
 > ▐ <sub>Tablet layout <kbd>~1 hour</kbd></sub> <br>
 > ▐ <br>
-> 🗓️ ***Day 4 onwards:*** Continue some unfinished task & submit the solution to [**Frontend Mentor**]( "Solution") 🚩 <br>
+> 🗓️ ***Day 4 onwards:*** Continue some unfinished task & submit the solution to [**Frontend Mentor**](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-html-sass-SkwcTBjUq "Solution") 🚩 <br>
 > ▐ <sub>Mobile layout <kbd>~1 hour</kbd></sub> <br>
 > ▐ <br>
 > 🗓️ 
